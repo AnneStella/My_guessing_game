@@ -1,6 +1,10 @@
-print("BRAIN TEASERS!!\n Do you want to play a game?")
-print("Enter three-digit numbers\n Or Enter Q to quit.")
-import random
+
+      import random
+
+print("BRAIN TEASERS!!\n Instructions \n Enter Y to continue and Q to quit the game")
+play = input("Do you want to play a game?")
+if play == "y":
+    print("Enter a three-digit number:")
 
 try:
     digits = list(range(10))
@@ -32,5 +36,5 @@ def my_game():
 
 
 while True:
-    entry = input("Enter a 3-digit number separated by spaces:")
+    entry = input("Enter a 3-digit number:")
     my_game()
