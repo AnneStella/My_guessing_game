@@ -1,4 +1,5 @@
-print("BRAIN TEASERS!!")
+print("BRAIN TEASERS!!\n Do you want to play a game?")
+print("Enter three-digit numbers\n Or Enter Q to quit.")
 import random
 
 try:
